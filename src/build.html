@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jsonnet 浏览器端编译</title>
+    <meta charset='utf-8' />
+    <style type="text/css">
+    .ui-top {
+        vertical-align: top;
+    }
+    
+    .ui-code-input {
+        height: 380px;
+        width: 500px;
+    }
+    </style>
+
+    <script type="text/javascript" src='./js/lib/jsonnet.js'></script>
+    <script type="text/javascript" src='./js/lib/mock_data.js'></script>
+</head>
+
+<body>
+    <textarea id='inputCode' class="ui-code-input"></textarea>
+    <button id='build' class="ui-top">生成</button>
+    <textarea id='outputData' class="ui-code-input"></textarea>
+
+
+    <script type="text/javascript" src='./js/page/build.js'></script>
+</body>
+
+</html>

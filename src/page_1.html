@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>本地开发数据模拟</title>
+    <meta charset='utf-8' />
+    <style type="text/css">
+    .ui-top {
+        vertical-align: top;
+    }
+    
+    .ui-code-input {
+        float: left;
+        min-height: 380px;
+        width: 700px;
+        outline: 1px solid gray;
+        margin: 0;
+    }
+    #sendRequestEle {
+        float: left;
+        margin-left: 10px;
+    }
+    </style>
+
+    <script type="text/javascript" src='./js/lib/jquery-1.11.2.min.js'></script>
+    <script type="text/javascript" src='./js/lib/jsonnet.js'></script>
+    <script type="text/javascript" src='./js/lib/mock_data.js'></script>
+</head>
+
+<body>
+    <pre id='outputDataEle' class="ui-code-input"></pre>
+    <button id='sendRequestEle' class="ui-top">发送请求</button>
+
+
+    <script type="text/javascript" src='./js/page/page_1.js'></script>
+</body>
+
+</html>
